@@ -1,0 +1,36 @@
+name: mdev1005_assignment3
+description: A new Flutter project.
+
+# The following defines the version of the application.
+version: 1.0.0+1
+
+# For information on the supported versions of Dart and Flutter, visit:
+# https://flutter.dev/docs/development/tools/sdk/releases
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP package for making network requests
+  http: ^1.2.2
+  
+  # Add other dependencies here
+  # e.g., provider: ^6.0.3
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Add other dev dependencies here
+  # e.g., mockito: ^5.1.0
+
+flutter:
+  uses-material-design: true
+
+  # Add your assets here
+  assets:
+    - assets/greeting_image.png
+    # Add other asset paths if needed
